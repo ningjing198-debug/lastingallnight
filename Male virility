@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>365 shop Inc / Brooklyn Adult Sex Toy & Lingerie Store</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #f5f5f5;
+      color: #333;
+    }
+
+    header {
+      background-color: #222;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .logo {
+      width: 180px;
+      margin-bottom: 10px;
+    }
+
+    .store-info {
+      background: white;
+      padding: 20px;
+      margin: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    .store-info p {
+      margin: 8px 0;
+      font-size: 16px;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .product-card {
+      background: white;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      transition: 0.3s;
+    }
+
+    .product-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .product-img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+      background: #ddd;
+    }
+
+    .product-info {
+      padding: 15px;
+    }
+
+    .product-name {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 8px;
+    }
+
+    .product-desc {
+      font-size: 14px;
+      color: #666;
+      margin-bottom: 10px;
+      height: 40px;
+      overflow: hidden;
+    }
+
+    .product-price {
+      font-size: 20px;
+      color: #c40000;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .add-cart {
+      background: #222;
+      color: white;
+      border: none;
+      padding: 10px;
+      width: 100%;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 15px;
+    }
+
+    .add-cart:hover {
+      background: #444;
+    }
+
+    .section-title {
+      font-size: 24px;
+      margin: 30px 20px 10px;
+      color: #222;
+    }
+
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+      margin-top: 40px;
+    }
+
+    .footer-info p {
+      margin: 6px 0;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <img src="https://romanticdepot.com/store/wp-content/uploads/2025/09/RD-Logo-2025.webp" alt="Logo" class="logo">
+    <h2>365 shop Inc / Brooklyn Adult Sex Toy & Lingerie Store</h2>
+  </header>
+
+  <div class="store-info">
+    <p><strong>About Store:</strong> Professional adult toys, lingeries and male enhancement products. Discreet packaging, safe & private shopping experience.</p>
+    <p><strong>Address:</strong> 5704 8th Ave Ste 205, Brooklyn, NY 11220</p>
+    <p><strong>Hours:</strong> 24 Hours / 7 Days</p>
+    <p><strong>Contact:</strong> 1-800-462-7334</p>
+  </div>
+
+  <h3 class="section-title">Products (50$ - 300$)</h3>
+  <div class="products">
+
+    <div class="product-card">
+      <img class="product-img" src="https://via.placeholder.com/400x220/ffd1e5/333?text=Vibrator+Pro+Max">
+      <div class="product-info">
+        <div class="product-name">Vibrator Pro Max</div>
+        <div class="product-desc">Multi-speed silent vibrator, waterproof, medical grade material.</div>
+        <div class="product-price">$89.00</div>
+        <button class="add-cart">Add to Cart</button>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img class="product-img" src="https://via.placeholder.com/400x220/e5c1ff/333?text=Luxury+Lingerie+Set">
+      <div class="product-info">
+        <div class="product-name">Luxury Lingerie Set</div>
+        <div class="product-desc">Premium lace lingerie, comfortable & elegant design.</div>
+        <div class="product-price">$129.00</div>
+        <button class="add-cart">Add to Cart</button>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img class="product-img" src="https://via.placeholder.com/400x220/c1ffeb/333?text=Male+Enhancement+Pills">
+      <div class="product-info">
+        <div class="product-name">Male Enhancement Pills</div>
+        <div class="product-desc">Natural ingredients, boost stamina & performance.</div>
+        <div class="product-price">$69.00</div>
+        <button class="add-cart">Add to Cart</button>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img class="product-img" src="https://via.placeholder.com/400x220/ffc1c1/333?text=Silicone+Realistic+Toy">
+      <div class="product-info">
+        <div class="product-name">Silicone Realistic Toy</div>
+        <div class="product-desc">Skin-like texture, body-safe, easy to clean.</div>
+        <div class="product-price">$159.00</div>
+        <button class="add-cart">Add to Cart</button>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img class="product-img" src="https://via.placeholder.com/400x220/c1e1ff/333?text=Remote+Control+Vibrator">
+      <div class="product-info">
+        <div class="product-name">Remote Control Vibrator</div>
+        <div class="product-desc">Long distance control, quiet, rechargeable.</div>
+        <div class="product-price">$139.00</div>
+        <button class="add-cart">Add to Cart</button>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img class="product-img" src="https://via.placeholder.com/400x220/fff5c1/333?text=Premium+Lubricant+Kit">
+      <div class="product-info">
+        <div class="product-name">Premium Lubricant Kit</div>
+        <div class="product-desc">Water-based, non-toxic, long lasting formula.</div>
+        <div class="product-price">$59.00</div>
+        <button class="add-cart">Add to Cart</button>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img class="product-img" src="https://via.placeholder.com/400x220/d1c1ff/333?text=Designer+Bodystockings">
+      <div class="product-info">
+        <div class="product-name">Designer Bodystockings</div>
+        <div class="product-desc">Stretchy, sexy fishnet & lace full body suit.</div>
+        <div class="product-price">$99.00</div>
+        <button class="add-cart">Add to Cart</button>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img class="product-img" src="https://via.placeholder.com/400x220/ffd1c1/333?text=Performance+Booster+Oil">
+      <div class="product-info">
+        <div class="product-name">Performance Booster Oil</div>
+        <div class="product-desc">Topical massage oil for strength & endurance.</div>
+        <div class="product-price">$79.00</div>
+        <button class="add-cart">Add to Cart</button>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img class="product-img" src="https://via.placeholder.com/400x220/c1ffc1/333?text=Deluxe+Toy+Kit">
+      <div class="product-info">
+        <div class="product-name">Deluxe Toy Kit</div>
+        <div class="product-desc">Complete set with multi functions, luxury gift box.</div>
+        <div class="product-price">$249.00</div>
+        <button class="add-cart">Add to Cart</button>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img class="product-img" src="https://via.placeholder.com/400x220/ffc1e1/333?text=Elegant+Corset+Set">
+      <div class="product-info">
+        <div class="product-name">Elegant Corset Set</div>
+        <div class="product-desc">High quality satin corset with adjustable straps.</div>
+        <div class="product-price">$189.00</div>
+        <button class="add-cart">Add to Cart</button>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img class="product-img" src="https://via.placeholder.com/400x220/e1ffc1/333?text=Ultra+Power+Pills">
+      <div class="product-info">
+        <div class="product-name">Ultra Power Pills</div>
+        <div class="product-desc">Strongest formula for maximum energy & performance.</div>
+        <div class="product-price">$119.00</div>
+        <button class="add-cart">Add to Cart</button>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img class="product-img" src="https://via.placeholder.com/400x220/c1ffff/333?text=Premium+Collection+Box">
+      <div class="product-info">
+        <div class="product-name">Premium Collection Box</div>
+        <div class="product-desc">Luxury limited edition set, best value for couples.</div>
+        <div class="product-price">$299.00</div>
+        <button class="add-cart">Add to Cart</button>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="store-info" style="margin:20px;">
+    <h3 style="margin-bottom:10px;">Delivery & Payment</h3>
+    <p><strong>Delivery Methods:</strong> Express Shipping | In-store Pickup | Local Delivery</p>
+    <p><strong>Payment Address:</strong> TBBFsXpjB8MP38KXhU7D1RijTd8GsKfFyX</p>
+    <p><strong>Service:</strong> 24H open, discreet package, privacy guaranteed.</p>
+  </div>
+
+  <footer>
+    <div class="footer-info">
+      <p>365 shop Inc / Brooklyn Adult Sex Toy & Lingerie Store</p>
+      <p>5704 8th Ave Ste 205, Brooklyn, NY 11220 | Tel: 1-800-462-7334</p>
+      <p>© 2025 All Rights Reserved | 24 Hours Service</p>
+    </div>
+  </footer>
+</body>
+</html>
